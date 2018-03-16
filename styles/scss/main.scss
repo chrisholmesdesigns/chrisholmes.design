@@ -187,6 +187,9 @@ h1, h2, h3 {
     @include size(h3);
     margin-top: $vertical-rhythm;
   }
+  img{
+    margin-top: $vertical-rhythm;
+  }
   a {
     text-shadow: 0.03em 0 #fff,
     -0.03em 0 #fff,
