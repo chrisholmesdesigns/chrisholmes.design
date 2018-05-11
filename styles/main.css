@@ -1597,11 +1597,19 @@ nav img {
   vertical-align: middle
 }
 
+nav div.logo, nav div.nav-toggle {
+  visibility: hidden;
+  max-width: none
+}
+
+nav .nav-toggle a {
+  display: none
+}
 
 .nav-fixed {
   position: fixed;
   top: 0;
-
+  bottom: auto
 }
 
 .nav-full {
@@ -1609,6 +1617,7 @@ nav img {
   top: 0;
   bottom: 0;
   width: 100vw;
+
   height: 100%;
   background-color: #212121;
 
