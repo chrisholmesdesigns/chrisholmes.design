@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Futura;
+    src: url(../Futura.ttc);
+}
+@import url("'https://fonts.googleapis.com/css?family=Inconsolata'");
+
 @import url("https://fonts.googleapis.com/css?family=Rubik|Bitter");
 .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-offset-0, .col-xs-offset-1, .col-xs-offset-2, .col-xs-offset-3, .col-xs-offset-4, .col-xs-offset-5, .col-xs-offset-6, .col-xs-offset-7, .col-xs-offset-8, .col-xs-offset-9, .col-xs-offset-10, .col-xs-offset-11, .col-xs-offset-12 {
   -webkit-box-sizing: border-box;
@@ -1507,7 +1513,7 @@ html {
 
 body {
   font-size: 1.25rem;
-  font-family: "Rubik", "Poppins", "Hel­vetica", Arial, sans-serif;
+  font-family: "Inconsolata", Arial, sans-serif;
   line-height: 1.6;
   color: #212121
 }
@@ -1538,7 +1544,7 @@ header img {
 }
 
 header h1 {
-  font-family: "Rubik", "Poppins", "Hel­vetica", Arial, sans-serif
+  font-family: "Futura", Arial, sans-serif
 }
 
 header .cursor {
@@ -1578,7 +1584,7 @@ nav {
 
 nav h3 {
   margin: 0;
-  font-family: "Rubik", "Poppins", "Hel­vetica", Arial, sans-serif;
+  font-family: "Inconsolata", Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 600
@@ -1661,11 +1667,11 @@ p {
 }
 
 p code {
-  font-family: "Menlo", "Monaco", "Andale Mono", "lucida console", "Courier New", monospace
+  font-family: "Inconsolata", monospace
 }
 
 h1, h2, h3 {
-  font-family: "Bitter", "Roboto Slab", "Cambria", Georgia, serif;
+  font-family: "Futura", Georgia, serif;
   margin-top: 2rem;
   letter-spacing: 2px
 }
@@ -1763,7 +1769,7 @@ img {
 }
 
 pre {
-  font: 12px "Consolas", "Liberation Mono", "Menlo", "Courier", monospace;
+  font: 12px
   background-color: #F7F7F7;
   margin-top: 0;
   margin-bottom: 2rem;
@@ -1772,7 +1778,7 @@ pre {
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  font-family: "Menlo", "Monaco", "Andale Mono", "lucida console", "Courier New", monospace
+  font-family: "Inconsolata", monospace
 }
 
 pre>code {
@@ -1801,18 +1807,18 @@ pre code::before, pre code::after {
 }
 
 code {
-  font-family: "Menlo", "Monaco", "Andale Mono", "lucida console", "Courier New", monospace;
+  font-family: "Inconsolata", monospace;
   font-size: 90%;
   background-color: #F7F7F7;
   padding: 4px
 }
 
 .sans {
-  font-family: "Open Sans", "Myriad Pro", "Myriad", sans-serif
+  font-family: "Inconsolata", sans-serif
 }
 
 .mono, tt {
-  font-family: "Menlo", "Monaco", "Andale Mono", "lucida console", "Courier New", monospace
+  font-family: "Inconsolata", monospace
 }
 
 ul, ol {
@@ -1824,7 +1830,7 @@ ul li, ol li {
 }
 
 ul li code, ol li code {
-  font-family: "Menlo", "Monaco", "Andale Mono", "lucida console", "Courier New", monospace
+  font-family: "Inconsolata", monospace
 }
 
 ul li {
@@ -1832,14 +1838,14 @@ ul li {
 }
 
 blockquote:before, blockquote:after {
-  font-family: "Bitter", "Roboto Slab", "Cambria", Georgia, serif;
+  font-family: "Inconsolata", Georgia, serif;
   content: '\201C';
   font-size: 35px;
   color: #DA784D
 }
 
 blockquote {
-  font-family: "Bitter", "Roboto Slab", "Cambria", Georgia, serif;
+  font-family: "Inconsolata", Georgia, serif;
   text-align: center;
   padding: 25px
 }
@@ -1998,7 +2004,7 @@ blockquote:after {
 }
 
 .overlay h3 {
-  font-family: "Rubik", "Poppins", "Hel­vetica", Arial, sans-serif
+  font-family: "Futura", Arial, sans-serif
 }
 
 .blog {
@@ -2007,7 +2013,7 @@ blockquote:after {
 
 .blog h3 {
   margin: 0 0 2rem;
-  font-family: "Rubik", "Poppins", "Hel­vetica", Arial, sans-serif
+  font-family: "Futura", Arial, sans-serif
 }
 
 .contact {
