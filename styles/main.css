@@ -1597,10 +1597,7 @@ nav img {
   vertical-align: middle
 }
 
-nav div.logo, nav div.nav-toggle {
-  visibility: hidden;
-  max-width: none
-}
+
 
 nav .nav-toggle a {
   display: none
@@ -1631,11 +1628,7 @@ nav .nav-toggle a {
   color: #DA784D
 }
 
-.nav-full.active {
-  -webkit-transform: translate(-100vw, 0px);
-  -ms-transform: translate(-100vw, 0px);
-  transform: translate(-100vw, 0px)
-}
+
 
 main {
   background-color: #fff;
